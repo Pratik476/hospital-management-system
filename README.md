@@ -51,52 +51,52 @@ Secure • Scalable • Role Based Login
 ## 🖼️ Application Screenshots
 
 ### 🔐 Admin Login
-![Admin Login](frontend/src/assets/Admin_Login.jpg.png)
+![Admin Login](images/Admin_Login.jpg.png)
 
 ---
 
 ### 👨‍⚕️ Doctor Login
-![Doctor Login](frontend/src/assets/Doctor_Login.jpg.png)
+![Doctor Login](images/Doctor_Login.jpg.png)
 
 ---
 
 ### 🧑‍⚕️ Patient List
-![Patient List](frontend/src/assets/PatientList.jpg.png)
+![Patient List](images/PatientList.jpg.png)
 
 ---
 
 ### ➕ Add Patient
-![Add Patient](frontend/src/assets/Add_Patient.jpg.png)
+![Add Patient](images/Add_Patient.jpg.png)
 
 ---
 
 ### 👁️ View Patient
-![View Patient](frontend/src/assets/View_Patient.jpg.png)
+![View Patient](images/View_Patient.jpg.png)
 
 ---
 
 ### ✏️ Update Patient
-![Update Patient](frontend/src/assets/Update_Patient.jpg.png)
+![Update Patient](images/Update_Patient.jpg.png)
 
 ---
 
 ### 📋 Patient Record
-![Patient Record](frontend/src/assets/Patient_Record.jpg.png)
+![Patient Record](images/Patient_Record.jpg.png)
 
 ---
 
 ### 💊 Medicine List
-![Medicine List](frontend/src/assets/Medicine_List.jpg.png)
+![Medicine List](images/Medicine_List.jpg.png)
 
 ---
 
 ### 📄 Medicine Details
-![Medicine Details](frontend/src/assets/Medicine_Details.jpg.png)
+![Medicine Details](images/Medicine_Details.jpg.png)
 
 ---
 
 ### ✏️ Update Medicine
-![Update Medicine](frontend/src/assets/Update_Medicine.jpg.png)
+![Update Medicine](images/Update_Medicine.jpg.png)
 
 
 ## ▶️ How to Run Project
