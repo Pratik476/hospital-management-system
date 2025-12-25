@@ -98,7 +98,6 @@ Secure • Scalable • Role Based Login
 ### ✏️ Update Medicine
 ![Update Medicine](frontend/src/assets/Update_Medicine.jpg.png)
 
----
 
 ## ▶️ How to Run Project
 
