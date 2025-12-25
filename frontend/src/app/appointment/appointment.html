@@ -1,0 +1,46 @@
+<div class="appointment-page">
+
+  <div class="table-wrapper">
+
+    <table
+      *ngIf="!loading && appointments.length > 0"
+      class="table table-striped">
+
+      <thead>
+        <tr>
+          <th>🆔 ID</th>
+          <th>🙍‍♂️ Name</th>
+          <th>🎂 Age</th>
+          <th>🩺 Symptoms</th>
+          <th>📞 Number</th>
+          <th>⚙️ Action</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let patient of appointments">
+          <td>{{ patient.id }}</td>
+          <td>{{ patient.name }}</td>
+          <td>{{ patient.age }} yrs</td>
+          <td>{{ patient.symptoms || 'N/A' }}</td>
+         
+          <td>{{ patient.number }}</td>
+          <td>
+            <button
+              class="btn btn-danger btn-sm"
+              (click)="deleteAppointment(patient.id)">
+              🗑 Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+
+    </table>
+
+    <div *ngIf="!loading && appointments.length === 0" class="no-data">
+      ❌ No appointments found
+    </div>
+
+  </div>
+
+</div>

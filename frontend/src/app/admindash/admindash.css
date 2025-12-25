@@ -1,0 +1,124 @@
+/* Main container */
+.table-container {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #f4fff9;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Heading */
+.table-container h2 {
+  margin-bottom: 6px;
+  font-size: 26px;
+  color: #0f5132;
+}
+
+/* Count */
+.count {
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #198754;
+}
+
+/* Table */
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+/* Header */
+.table-container thead {
+  background: linear-gradient(90deg, #198754, #20c997);
+}
+
+.table-container thead th {
+  padding: 14px;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 0.4px;
+}
+
+/* Body cells */
+.table-container tbody td {
+  padding: 12px 14px;
+  font-size: 14.5px;
+  border-bottom: 1px solid #e9ecef;
+  vertical-align: middle;
+}
+
+/* Row hover */
+.table-container tbody tr:hover {
+  background: #f1fff7;
+  transition: 0.2s ease-in-out;
+}
+
+/* Name column */
+.table-container td.name {
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+/* Blood group highlight */
+.table-container tbody td:nth-child(4) b {
+  color: #c92a2a;
+}
+
+/* Dose style */
+.table-container tbody td:nth-child(6) {
+  font-weight: 600;
+  color: #495057;
+}
+
+/* Urgency badge */
+.badge {
+  padding: 6px 16px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* Urgent */
+.badge.high {
+  background: #ffe3e3;
+  color: #c92a2a;
+  border: 1px solid #ff6b6b;
+}
+
+/* Normal */
+.badge.low {
+  background: #e6fcf5;
+  color: #087f5b;
+  border: 1px solid #63e6be;
+}
+
+/* Responsive (mobile) */
+@media (max-width: 768px) {
+  .table-container table {
+    font-size: 13px;
+  }
+
+  .table-container thead {
+    display: none;
+  }
+
+  .table-container tbody tr {
+    display: block;
+    margin-bottom: 16px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  }
+
+  .table-container tbody td {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 14px;
+    border-bottom: 1px dashed #dee2e6;
+  }
+}

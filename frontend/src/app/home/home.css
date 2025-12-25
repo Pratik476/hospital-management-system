@@ -1,0 +1,109 @@
+.home {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #0f766e, #14b8a6);
+  color: white;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.hero span {
+  color: #fde047;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 15px 0 30px;
+}
+
+.hero-buttons .btn {
+  padding: 14px 24px;
+  margin: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn.book {
+  background: #fde047;
+  color: black;
+}
+
+.btn.view {
+  background: white;
+  color: #0f766e;
+}
+
+/* STATS */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  background: #f0fdfa;
+  padding: 40px;
+  text-align: center;
+}
+
+.stat-card h3 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+/* SERVICES */
+.services {
+  padding: 50px;
+  text-align: center;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.service {
+  background: #ecfeff;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+/* DOCTORS */
+.doctors {
+  background: #f9fafb;
+  padding: 50px;
+  text-align: center;
+}
+
+.doctor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.doctor-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ABOUT */
+.about {
+  padding: 50px;
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  background: #0f766e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

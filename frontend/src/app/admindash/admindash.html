@@ -1,0 +1,40 @@
+<div class="table-container">
+
+  <h2>🧑‍⚕️ Patient Records</h2>
+  <p class="count">👥 Patients count: <b>{{ patients.length }}</b></p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>🆔 ID</th>
+        <th>🙍‍♂️ Name</th>
+        <th>🎂 Age</th>
+        <th>🩸 Blood</th>
+        <th>💊 Prescription</th>
+        <th>💰 Fees</th>
+        <th>⏱ Dose</th>
+        <th>🚨 Urgency</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let patient of patients">
+        <td>{{ patient.id }}</td>
+        <td>👤 {{ patient.name }}</td>
+        <td>{{ patient.age }} yrs</td>
+        <td>🩸 {{ patient.blood }}</td>
+        <td>💊 {{ patient.prescription }}</td>
+        <td>💰  {{patient.fees}}</td>
+        <td>⏰ {{ patient.dose }}</td>
+        <td>
+          <span
+            class="badge"
+            [class.high]="patient.urgency === 'yes'"
+            [class.low]="patient.urgency === 'no'">
+            {{ patient.urgency === 'yes' ? '🚨 URGENT' : '🟢 NORMAL' }}
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
