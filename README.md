@@ -9,7 +9,7 @@ Secure • Scalable • Role Based Login
 ## 🔐 Demo Login Credentials
 
 ### 👑 Admin Login
-- **Username:** `admin`
+- **Username:** `aadi`
 - **Password:** `1212`
 
 ### 👨‍⚕️ Doctor Login
